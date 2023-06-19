@@ -1,0 +1,101 @@
+<!-- 
+  TODO: Create a motivational post website.
+Style it how ever you like. 
+Look at the goal image for inspiration.
+But it must have the following features:
+1. The main h1 text should be using the Regular Libre Baskerville Font from Google Fonts:
+  https://fonts.google.com/specimen/Libre+Baskerville
+2. The text should be white and background black.
+3. Add your own image into the images folder inside assets. It should have a 5px white border.
+4. The text should be center aligned.
+5. Create a div to contain the h1, p and img elements. Adjust the margins so that the image and text are centered on the page. 
+  Hint: You horizontally center a div by giving it a width of 50% and a margin-left of 25%.
+  Hint: Set the image to have a width of 100% so it fills the div. 
+6. Read about the text-transform property on MDN docs to make the h1 uppercase with CSS.
+  https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Motivational Poster</title>
+  <style>
+    html{
+      background-color: black;
+      color: white;
+    }
+
+    div{
+      text-align: center;
+      margin-top: 60px;
+      margin-bottom: 60px;
+    }
+
+    img{
+      border: 5px solid white;
+      height: 400px;width: 400px;
+    }
+
+    p{
+      font-size: large;
+    }
+
+    h1{
+      font-family: 'Libre Baskerville',serif;
+    }
+
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <h1 style="text-align: center; text-transform: uppercase;">Motivational Poster</h1>
+  <div>
+    
+
+    <img src="images/ab4.jpg" alt="JUST DO IT">
+    
+    <h1>JUST FUCKIN' DO IT!</h1>
+    <p>Don't let your Dreams be Dreams</p>
+
+  </div>
+
+  <hr>
+
+  <div>
+    <img src="images/rocky3apollo-creed-rocky-there-is-no-tomorrow.gif" alt="There is no Tomorrow">
+
+    <h1>THERE IS NO TOMORROW</h1>
+
+    <p>Start Today</p>
+  </div>
+
+  <hr>
+
+  <div>
+    <img src="images/8fdd7545f9f120adb0b97a6b0713b4e9.jpg" alt="Believe in Yourself">
+    <h1>ALWAYS BELIEVE IN YOURSELF</h1>
+    <p>The first thing you gotta do towards a better life.</p>
+  </div>
+
+  <hr>
+
+  <div>
+    <img src="images/take-no.gif" alt="Take no Shit from No one">
+    <h1>Be Yourself</h1>
+    <p>Be you and yeah, NEVER Take shit from No one . NEVER!</p>
+  </div>
+
+  <hr>
+
+  <footer style="text-align: center; background-color:red; color: black;" >
+    &copy Swapnil Pandey 2023
+  </footer>
+
+  <hr>
+
+</body>
+</html>
